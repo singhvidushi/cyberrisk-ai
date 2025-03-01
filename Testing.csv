@@ -1,0 +1,17 @@
+﻿CVE_ID,Description,CVSS_Score,CWE
+CVE-1999-1050,"Directory traversal vulnerability in Matt Wright FormHandler.cgi script allows remote attackers to read arbitrary files via (1) a .. (dot dot) in the reply_message_attach attachment parameter, or (2) by specifying the filename as a template.",5,General Vulnerability
+CVE-2000-0330,"The networking software in Windows 95 and Windows 98 allows remote attackers to execute commands via a long file name string, aka the ""File Access URL"" vulnerability.",7.6,General Vulnerability
+CVE-2000-0165,The Delegate application proxy has several buffer overflows which allow a remote attacker to execute commands.,7.5,General Vulnerability
+CVE-1999-1110,"Windows Media Player ActiveX object as used in Internet Explorer 5.0 returns a specific error code when a file does not exist, which allows remote malicious web sites to determine the existence of files on the client.",5,General Vulnerability
+CVE-1999-1528,"ProSoft Netware Client 5.12 on Macintosh MacOS 9 does not automatically log a user out of the NDS tree when the user logs off the system, which allows other users of the same system access to the unprotected NDS session.",4.6,General Vulnerability
+CVE-1999-1190,"Buffer overflow in POP3 server of Admiral Systems EmailClub 1.05 allows remote attackers to execute arbitrary commands via a long ""From"" header in an e-mail message.",10,General Vulnerability
+CVE-1999-1051,"Default configuration in Matt Wright FormHandler.cgi script allows arbitrary directories to be used for attachments, and only restricts access to the /etc/ directory, which allows remote attackers to read arbitrary files via the reply_message_attach attachment parameter.",5,General Vulnerability
+CVE-1999-1457,"Buffer overflow in thttpd HTTP server before 2.04-31 allows remote attackers to execute arbitrary commands via a long date string, which is not properly handled by the tdate_parse function.",7.5,General Vulnerability
+CVE-1999-1508,Web server in Tektronix PhaserLink Printer 840.0 and earlier allows a remote attacker to gain administrator access by directly calling undocumented URLs such as ncl_items.html and ncl_subjects.html.,10,General Vulnerability
+CVE-1999-1549,"Lynx 2.x does not properly distinguish between internal and external HTML, which may allow a local attacker to read a ""secure"" hidden form value from a temporary file and craft a LYNXOPTIONS: URL that causes Lynx to modify the user's configuration file and execute commands.",7.8,CWE-346
+CVE-1999-0793,Internet Explorer allows remote attackers to read files by redirecting data to a Javascript applet.,2.6,General Vulnerability
+CVE-1999-1092,"tin 1.40 creates the .tin directory with insecure permissions, which allows local users to read passwords from the .inputhistory file.",4.6,General Vulnerability
+CVE-1999-1519,Gene6 G6 FTP Server 2.0 allows a remote attacker to cause a denial of service (resource exhaustion) via a long (1) user name or (2) password.,5,General Vulnerability
+CVE-2000-0073,Buffer overflow in Microsoft Rich Text Format (RTF) reader allows attackers to cause a denial of service via a malformed control word.,5,General Vulnerability
+CVE-1999-0987,Windows NT does not properly download a system policy if the domain user logs into the domain with a space at the end of the domain name.,10,CWE-287
+CVE-2000-0352,"Pine before version 4.21 does not properly filter shell metacharacters from URLs, which allows remote attackers to execute arbitrary commands via a malformed URL.",10,General Vulnerability
